@@ -1,0 +1,131 @@
+.footerBox {
+    margin-top:100px;
+    width: 100%;
+}
+
+.footerBox h4 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footerBox form {
+    text-align: center;
+}
+
+.footerBox form label{
+    display: block;
+}
+
+.footerBox form div{
+    margin-top: 10px;
+}
+
+.footerBox form select ,
+.footerBox form input{
+    width: 170px;
+    height: 20px;
+}
+
+.footerBox form p {
+    display: none;
+}
+
+.footerBox form button{
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 200, 0.5);
+    border-radius: 5px;
+}
+
+#staffAddDescrip{
+    overflow-x:hidden;
+}
+
+.detailBox{
+    /* display: none; */
+    position: fixed;
+    left:50%;
+    transform: translateX(-50%);
+    top: 200px;
+    width: 500px;
+    z-index: 10;
+    background-color: rgba(255, 255, 255,0.9);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.detailBox table{
+    width: 100%;
+    text-align: center;
+}
+
+.detailBox #staffEditDescrip {
+    overflow-x: hidden;
+}
+
+.detailBox p{
+    display: none;
+    text-align: center;
+}
+
+.detailBox .buttonBox {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.detailBox .buttonBox button{
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 200, 0.5);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.detailBox input,
+.detailBox select{
+    width: 170px;
+    height: 20px;
+}
+
+.headerBox {
+    margin: 0px auto;
+    width: 100%;
+}
+
+.headerBox h3 {
+    text-align: center;
+}
+
+.headerBox .optHeader {
+    width: 100%;
+}
+
+a.itemBtn {
+    margin-left: 5px;
+    color: #1e90ff;
+    font-size: 14px;
+}
+
+tr td{
+    text-align: center;
+}
+
+.itemPanel {
+    border: 2px solid rgba(0, 0 , 100, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.tempEmpty {
+    background-color: #ccc;
+}
