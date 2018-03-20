@@ -5,7 +5,7 @@ import StaffItemPanel from './StaffItemPanel';
 import StaffFooter from './StaffFooter';
 import StaffDetail from './StaffDetail';
 import STAFF from './STAFF'
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 
 class App extends Component {
     constructor () {
@@ -93,4 +93,4 @@ class App extends Component {
 }
 
 ReactDOM.render(<App />, document.getElementsByTagName('div')[0]);
-registerServiceWorker();
+// registerServiceWorker();

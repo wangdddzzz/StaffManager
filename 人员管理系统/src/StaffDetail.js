@@ -52,6 +52,7 @@ class StaffDetail extends Component {
     }
 
     componentDidUpdate() {
+        // console.log('wangdi');
         if(!this.props.staffDetail){
             return;
         }
